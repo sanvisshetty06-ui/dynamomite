@@ -1,0 +1,25 @@
+{
+  "name": "routeless-transport",
+  "version": "2.0.0",
+  "description": "ROUTELESS – Real-Time Intelligent Rural Transportation Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "rural-transit",
+    "gps-tracking",
+    "ai-camera",
+    "student-transportation",
+    "socket.io",
+    "leaflet",
+    "webrtc"
+  ],
+  "author": "Sanvi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.8.4"
+  }
+}

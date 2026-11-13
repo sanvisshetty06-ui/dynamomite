@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROUTELESS – Real-Time Intelligent Rural Transportation Platform</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300F0FF'><circle cx='12' cy='12' r='10'/></svg>">
+
+  <!-- Leaflet Map CSS -->
+  <link rel="stylesheet" href="/vendor/leaflet.css">
+
+  <!-- Core Theme CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- Vendor Libraries (100% Offline Standalone in public/vendor/) -->
+  <script src="/vendor/react.production.min.js"></script>
+  <script src="/vendor/react-dom.production.min.js"></script>
+  <script src="/vendor/babel.min.js"></script>
+  <script src="/vendor/leaflet.js"></script>
+
+  <!-- Socket.IO Client (Served automatically by Express server) -->
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <!-- React App Root Container -->
+  <div id="root"></div>
+
+  <!-- Application Modules & Components -->
+  <script type="text/babel" src="/js/synthetic_stream.js"></script>
+  <script type="text/babel" src="/js/components/Navbar.js"></script>
+  <script type="text/babel" src="/js/components/KPICards.js"></script>
+  <script type="text/babel" src="/js/components/LiveMap.js"></script>
+  <script type="text/babel" src="/js/components/CameraGrid.js"></script>
+  <script type="text/babel" src="/js/components/AIAnalysisView.js"></script>
+  <script type="text/babel" src="/js/components/EmergencyCenter.js"></script>
+  <script type="text/babel" src="/js/components/DriverView.js"></script>
+  <script type="text/babel" src="/js/components/StudentView.js"></script>
+  <script type="text/babel" src="/js/components/FleetDirectory.js"></script>
+  <script type="text/babel" src="/js/components/DemoPanel.js"></script>
+  <script type="text/babel" src="/js/app.js"></script>
+</body>
+</html>
